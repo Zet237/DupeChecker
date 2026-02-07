@@ -47,7 +47,8 @@ def process_duplicates(input_path, output_path):
                 duplicates_data.append({
                     "md5sum": md5,
                     "Batch": batch,
-                    "Filename": filename
+                    "Filename": filename,
+                    "Amount": md5_counts[md5]
                 })
 
     print(f"Step 3: Writing {len(duplicates_data)} rows to Excel...")
