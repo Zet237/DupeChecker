@@ -1,13 +1,7 @@
-# /// script
-# dependencies = [
-#   "pandas",
-#   "openpyxl",
-# ]
-# ///
 
 import pandas as pd
 
-input_file = 'test.txt'
+input_file = 'checksums.txt'
 output_file = 'duplicates.xlsx'
 
 
