@@ -1,3 +1,9 @@
+# /// script
+# dependencies = [
+#   "pandas",
+#   "openpyxl",
+# ]
+# ///
 
 import pandas as pd
 
